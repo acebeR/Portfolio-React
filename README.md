@@ -9,3 +9,7 @@ Tecnologias usadas;
 - Bootstrap -> https://getbootstrap.com/
 - HTML e CSS
 - Firebase
+
+Para o login; 
+admin: admin@gmail.com
+senha: 123456
