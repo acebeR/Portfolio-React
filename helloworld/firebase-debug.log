@@ -1,0 +1,60 @@
+[debug] [2018-09-11T13:47:29.713Z] ----------------------------------------------------------------------
+[debug] [2018-09-11T13:47:29.729Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rebeca Divina\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-09-11T13:47:29.731Z] CLI Version:   4.2.1
+[debug] [2018-09-11T13:47:29.731Z] Platform:      win32
+[debug] [2018-09-11T13:47:29.732Z] Node Version:  v8.11.4
+[debug] [2018-09-11T13:47:29.737Z] Time:          Tue Sep 11 2018 10:47:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-09-11T13:47:29.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-11T13:47:29.814Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-09-11T13:47:29.823Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Rebeca Divina\Documents\UCB\TCC\React\helloworld
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-09-11T13:47:49.984Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-09-11T13:47:50.965Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2018-09-11T13:47:56.160Z] >>> HTTP REQUEST GET https://helloword-portifolio.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2018-09-11T13:47:57.101Z] <<< HTTP RESPONSE 200
+[info] +  Database Rules for helloword-portifolio have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-09-11T13:48:04.697Z] Error: ENOENT: no such file or directory, open 'C:\Users\Rebeca Divina\Documents\UCB\TCC\React\helloworld\build\404.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.writeFileSync (fs.js:1299:33)
+    at Object.createFileSync (C:\Users\Rebeca Divina\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\Rebeca Divina\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:194:6)
+    at C:\Users\Rebeca Divina\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:214:12
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.

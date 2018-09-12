@@ -5,8 +5,8 @@ const Cabecalho = props => {
     return(
         <div>
               <div className='jumbotron text-center'>
-                <h1>Company</h1> 
-                <p>We specialize in blablabla</p> 
+                <h1>Países</h1> 
+                <p>Para você visitar, estudar ou apenas sonhar com eles.</p> 
                 <form>
                     <div className='input-group'>
                         <input type='email' className='form-control' size='50' placeholder='Email Address' required/>
@@ -22,9 +22,10 @@ const Cabecalho = props => {
                         <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
                             <span className='icon-bar'></span>
                             <span className='icon-bar'></span>
-                            <span className='icon-bar'></span>                        
+                            <span className='icon-bar'></span>    
+                            <Link to="/">Logo</Link>                    
                         </button>
-                        <Link to="/">Logo</Link>
+                        
                     </div>
                     <div className='collapse navbar-collapse' id='myNavbar'>
                         <ul className='nav navbar-nav navbar-right'>

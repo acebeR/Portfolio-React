@@ -8,6 +8,7 @@ import Servicos from './componentes/Servicos'
 import Portifolio from './componentes/Portifolio'
 import Precos from './componentes/Precos'
 import Contatos from './componentes/Contatos'
+import Login from './componentes/Login'
 // Parte Administrativa
 import Admin from './admin/Admin'
 
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path='/Precos' component={Precos}/>{/* <Precos/>*/}
             <Route path='/Contatos' component={Contatos}/>{/* <Contatos/>*/}
             <Route path='/Admin' component={Admin}/>{/* <Admin/>*/}
+            <Route path='/Login' component={Login}/>
             <Rodape />
   
         </div>
